@@ -75,7 +75,7 @@ function solution(progresses, speeds) {
   return answer
 }
 
-describe("기능개발", () => {
+describe("lv2-기능개발", () => {
   it("Case One passes", () => {
     expect(solution(...fixtures.caseOne.args)).toStrictEqual(fixtures.caseOne.result)
   })

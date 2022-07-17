@@ -48,7 +48,7 @@ const solution = (new_id) => {
   return result
 }
 
-describe("신규 아이디 추천", () => {
+describe("lv1-신규-아이디-추천", () => {
   it("Case One passes", () => {
     expect(solution(fixtures.caseOne.args)).toBe(fixtures.caseOne.result)
   })
